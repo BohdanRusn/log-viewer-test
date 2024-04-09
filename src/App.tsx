@@ -73,7 +73,7 @@ const LogViewer: React.FC<LogViewerProps> = ({ logData, loadMoreRows, forwardRef
 const App = () => {
   const [logData, setLogData] = useState<IMList<string>>(IMList());
   const [socket, setSocket] = useState<WebSocket>();
-  const [disabledAutoScroll, setDisabledAutoScroll] = useState(true);
+  const [disabledAutoScroll, setDisabledAutoScroll] = useState(false);
   const listRef = useRef<List | null>(null);
   
   useEffect(() => {

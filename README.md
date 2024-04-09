@@ -6,7 +6,11 @@ Download a log file from [here](https://drive.google.com/file/d/1Gf-YMrKVXpDbKvc
 
 Or u can change the path `logFilePath` of the file in the `server/index.mjs` file.
 
+## Packages
 
+Install all packages
+
+### `yarn install`
 
 ## Available Scripts
 
